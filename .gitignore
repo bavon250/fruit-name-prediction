@@ -1,0 +1,16 @@
+# Model weights are large and should not be committed to GitHub
+weights.pt
+*.pth
+*.pt
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Streamlit
+.streamlit/credentials.toml
